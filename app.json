@@ -11,10 +11,8 @@
   "logo": "http://33.media.tumblr.com/avatar_be8b5eef9ae6_128.png",
   "success_url": "/",
   "env": {
-    "DISABLE_COLLECTSTATIC": {
-        "description": "idk something you have to set for some reason",
-        "value": "1"
-    }
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-python",
+    "DISABLE_COLLECTSTATIC": "1"
   },
   "buildpacks": [
     {"url": "https://github.com/heroku/heroku-buildpack-python"},
